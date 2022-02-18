@@ -1,0 +1,1056 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti Light", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #000;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+    background: url('../images/bg_banner.jpg')fixed;
+    background-size: 100%;
+    background-position: center;
+}
+input,textarea,select{
+	font-family: "GT-Eesti Light", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+a{
+	color: #000;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+	color: #000;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1200px;
+}
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url('/virtual-folio/fonts/Montserrat-Light.woff2') format('woff2'),
+        url('/virtual-folio/fonts/Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('/virtual-folio/fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('/virtual-folio/fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Black';
+    src: url('/virtual-folio/fonts/Montserrat-Black.woff2') format('woff2'),
+        url('/virtual-folio/fonts/Montserrat-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat SemiBold';
+    src: url('/virtual-folio/fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('/virtual-folio/fonts/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Thin';
+    src: url('/virtual-folio/fonts/Montserrat-Thin.woff2') format('woff2'),
+        url('/virtual-folio/fonts/Montserrat-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+.flex-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+::placeholder {
+  color: #9B9B9B;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #9B9B9B;
+}
+
+::-ms-input-placeholder {
+  color: #9B9B9B;
+}
+#home { 
+    background: url('../images/bg_image_1.jpg')no-repeat;
+    background-size: cover;
+}
+#home section.bg{
+    background: rgba(94,92,92,.5);
+    background-size: cover;
+    padding-top: 30px;
+}
+#home header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 15px 100px;
+    margin: 0 auto;
+    background: rgba(94,92,92,.5);
+}
+#home header h1 { 
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Montserrat SemiBold';
+}
+#home header nav.middle ul { 
+    display: flex;
+}
+#home header nav.middle ul li { 
+    margin-right: 20px;
+}
+#home header nav.middle ul li a { 
+    width: 100%;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Montserrat SemiBold';
+}
+#home header nav.middle ul li a:hover{
+    color: #2a60f6;
+}
+#home header nav.lang a.eng { 
+    border-radius: 50px;
+    padding: 15px;
+    color: #fff;
+    background: #2a60f6;
+    font-family: 'Montserrat SemiBold';
+}
+#home section.spotlight { 
+    padding: 200px 0 0;
+    width: 35%;
+    text-align: center;
+    margin: 0 auto;
+}
+#home section.spotlight h5 { 
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat Light';
+    transition: all 1.3s ease;
+}
+#home section.spotlight h2 { 
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat Light';
+    font-weight: 500;
+    transition: all 1.3s ease;
+}
+#home section.spotlight h2 b { 
+    color: #2a60f6;
+    font-family: 'Montserrat Light';
+    font-weight: 700;
+}
+#home section.spotlight span.label { 
+    color: #2a60f6;
+    padding: 15px 20px;
+    background: #454e69;
+    display: inline-block;
+    border-radius: 30px;
+    font-family: 'Montserrat SemiBold';
+    transition: all 1.3s ease;
+}
+#home section.bottom { 
+    padding: 200px 0 45px;
+    width: 10%;
+    margin: 0 auto;
+    text-align: center;
+}
+#home section.bottom a { 
+    display: inline-block;
+}
+#home section.bottom a img { 
+    width: 25px;
+    filter: invert(1);
+}
+#home section.bottom a img:hover{
+    width: 30px;
+}
+#profile { 
+    padding: 100px 0;
+    background: #fff;
+}
+#profile section.cv { 
+    display: flex;
+    justify-content: flex-start;
+}
+#profile section.cv div.left { 
+    width: 45%;
+    position: relative;
+}
+#profile section.cv div.left div.border { 
+    width: 60%;
+    height: 90%;
+    border: 5px solid #2a60f6;
+    z-index: 0;
+    position: absolute;
+    left:15px;
+}
+#profile section.cv div.left div.img_container { 
+    width: 56%;
+    top: 30px;
+    position: absolute;
+    z-index: 1;
+}
+#profile section.cv div.left div.img_container img { 
+    display: block;
+    width: 100%;
+}
+#profile section.cv div.right { 
+    width: 45%;
+}
+#profile section.cv div.right h3 { 
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat Light';
+}
+#profile section.cv div.right span.label { 
+    font-size: 22px;
+    color: #2a60f6;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-family: 'Montserrat SemiBold';
+}
+#profile section.cv div.right p { 
+    color: #9b9b9b;
+    font-size: 18px;
+    font-family: 'Montserrat Light';
+    margin-bottom: 20px;
+}
+#profile section.cv div.right ul { 
+    margin-bottom: 20px;
+    border-left: 1px solid #9b9b9b;
+    position: relative;
+    line-height: 88%;
+}
+#profile section.cv div.right ul li { 
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+#profile section.cv div.right ul li span.circle{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 3px solid #2a60f6 ;
+    position: absolute;
+    background: #fff;
+    left: -7px;
+}
+#profile section.cv div.right ul li span.details { 
+    font-size: 18px;
+    color: #9b9b9b;
+    font-family: 'Montserrat Light';
+}
+#profile section.cv div.right ul li span.details b { 
+    color: #000;
+    font-weight: 600;
+    font-family: 'Montserrat SemiBold';
+}
+#profile section.cv div.right a.button { 
+    padding: 13px 30px;
+    border: 3px solid #2a60f6;
+    border-radius: 5px;
+    color: #2a60f6;
+    display: inline-block;
+    font-family: 'Montserrat SemiBold';
+}
+#skill { 
+    padding: 50px 0;
+    background: #fff;
+}
+#skill h3 { 
+    font-size: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'Montserrat Light';
+    font-weight: 600;
+}
+#skill section.skills { 
+    display: flex;
+    justify-content: space-between;
+}
+#skill section.skills div.coding_skill { 
+    width: 48%;
+}
+#skill section.skills div.coding_skill h5 { 
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat Light';
+    font-weight: 600;
+}
+#skill section.skills div.coding_skill ul li span.language { 
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat Light';
+}
+#skill section.skills div.coding_skill ul li span.border { 
+    border: 2px solid #2a60f6;
+    width: 100%;
+    height: 24px;
+    display: inline-block;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+#skill section.skills div.coding_skill ul li:last-child span.border span.percentage{
+    width: 90%;
+}
+#skill section.skills div.coding_skill ul li:first-child span.border span.percentage{
+    width: 86%;
+}
+#skill section.skills div.coding_skill ul li:nth-child(2) span.border span.percentage{
+    width: 80%;
+}
+#skill section.skills div.coding_skill ul li span.border span.percentage { 
+    width: 99.5%;
+    display: inline-block;
+    background: #2a60f6;
+    height: 18px;
+    border-radius: 30px;
+    margin-left: 2px;
+    text-align: center;
+    color: #fff;
+}
+#skill section.skills div.design_skill { 
+    width: 48%;
+}
+#skill section.skills div.design_skill h5 { 
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat Light';
+    font-weight: 600;
+}
+#skill section.skills div.design_skill ul li span.design_type { 
+    font-family: 'Montserrat Light';
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+#skill section.skills div.design_skill ul li span.border { 
+    border: 2px solid #2a60f6;
+    width: 100%;
+    height: 24px;
+    display: inline-block;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+#skill section.skills div.design_skill ul li span.border span.percentage { 
+    width: 99%;
+    display: inline-block;
+    background: #2a60f6;
+    height: 18px;
+    border-radius: 30px;
+    margin-left: 2px;
+    text-align: center;
+    color: #fff;
+}
+#skill section.skills div.design_skill ul li:first-child span.border span.percentage {
+    width: 92%;
+}
+#skill section.skills div.design_skill ul li:last-child span.border span.percentage {
+    width: 79%;
+}
+#career { 
+    padding: 50px 0;
+    background: #fff;
+}
+#career section.qualification { 
+    display: flex;
+    justify-content: space-between;
+}
+#career section.qualification div.item { 
+    width: 48%;
+}
+#career section.qualification div.item h3 { 
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat Light';
+    font-weight: 600;
+}
+#career section.qualification div.item ul { 
+    border-left: 1px solid #9b9b9b;
+}
+#career section.qualification div.item ul li { 
+    padding-left: 25px;
+    margin-bottom: 12px;
+    position: relative;
+}
+#career section.qualification div.item ul li span.border{
+    position: absolute;
+    left: -6px;
+    top: -4px;
+}
+#career section.qualification div.item ul li span.border span.dot{
+    background: #6e6b6b;
+    height: 12px;
+    width: 12px;
+    margin-top: 4px;
+    display: inline-block;
+    border-radius: 50%;
+}
+#career section.qualification div.item ul li:hover span.border{
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border: 3px solid #2a60f6;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: -11px;
+    transition: all .6s ease;
+}
+#career section.qualification div.item ul li:hover span.border span.dot{
+    width: 15px;
+    height: 15px;
+    margin: 2px 0 0 2px;
+    background: #2a60f6;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all .6s ease;
+}
+#career section.qualification div.item ul li span.year { 
+    background: #6e6b6b;
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 50px 0px 100px 60px;
+    color: #fff;
+    margin-bottom: 15px;
+    width: 35%;
+    font-family: 'Montserrat SemiBold';
+}
+#career section.qualification div.item ul li:hover span.year{
+    background: #2a60f6;
+    transition: all .6s ease;
+}
+#career section.qualification div.item ul li div.specialisation { 
+    padding: 20px 15px;
+    background: #ecf0f7;
+}
+#career section.qualification div.item ul li div.specialisation h6 { 
+    font-family: 'Montserrat SemiBold';
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+#career section.qualification div.item ul li div.specialisation span.university { 
+    color: #2a60f6;
+    font-size: 14px;
+    margin-bottom: 15px;
+    display: inline-block;
+    font-family: 'Montserrat SemiBold';
+}
+#career section.qualification div.item ul li div.specialisation p { 
+    color: #7c7a7a;
+    font-size: 16px;
+    font-family: 'Montserrat Light';
+}
+#service { 
+    padding: 100px 0;
+    background: #fff;
+}
+#service section.top { 
+    width: 35%;
+    text-align: center;
+    margin: 0 auto;
+}
+#service section.top span.service { 
+    color: #2a60f6;
+    background: #e9efff;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-family: 'Montserrat SemiBold';
+    margin-bottom: 20px;
+}
+#service section.top h3 { 
+    font-size: 45px;
+    font-family: 'Montserrat Light';
+    font-weight: 600;
+}
+#service section.bottom { 
+    padding-top: 100px;
+}
+#service section.bottom ul { 
+    display: flex;
+    justify-content: space-between;
+}
+#service section.bottom ul li { 
+    width: 23%;
+    text-align: center;
+    margin: 0 auto;
+}
+#service section.bottom ul li span.img { 
+    display: inline-block;
+    padding: 30px;
+    border-radius: 50%;
+    background: #eff2fc;
+    margin-bottom: 20px;
+}
+#service section.bottom ul li span.img img { 
+    width: 30px;
+    display: inline-block;
+}
+#service section.bottom ul li h5 { 
+    font-size: 20px;
+    color: #2a60f6;
+    font-family: 'Montserrat SemiBold';
+    margin-bottom: 20px;
+}
+#service section.bottom ul li p { 
+    font-size: 18px;
+    color: #9b9b9b;
+}
+#client { 
+    padding: 150px 0;
+    background: rgba(0,0,0,0);
+}
+#client section.count { 
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+#client section.count ul { 
+    display: flex;
+    justify-content: space-between;
+}
+#client section.count ul li { 
+    width: 21%;
+    margin: 0 auto;
+    text-align: center;
+}
+#client section.count ul li span.number { 
+    font-size: 45px;
+    color: #fff;
+    margin-bottom: 20px;
+    display: block;
+    font-family: 'Montserrat SemiBold';
+}
+#client section.count ul li span.label { 
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    font-family: 'Montserrat Light';
+}
+#portfolio { 
+    padding: 80px 0;
+    background: #fff;
+}
+#portfolio section.top { 
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+#portfolio section.top span.portfolio { 
+    color: #2a60f6;
+    background: #e9efff;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-family: 'Montserrat SemiBold';
+    margin-bottom: 20px;
+}
+#portfolio section.top h2 { 
+    font-size: 45px;
+    font-family: 'Montserrat Light';
+    font-weight: 600;
+}
+#portfolio section.top ul { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+#portfolio section.top ul li { 
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+#portfolio section.top ul li:hover span.border{
+    display: inline-block;
+    height: 46px;
+    background: #fff;
+    border: 2px solid #2a60f6;
+    border-radius: 35px;
+}
+#portfolio section.top ul li span.border a {
+    color: #9b9b9b;
+    display: inline-block;
+    border: 2px solid #9b9b9b;
+    padding: 10px 20px;
+    border-radius: 35px;
+}
+#portfolio section.top ul li:hover span.border a { 
+    background: #2a60f6;
+    color: #fff;
+    border: none;
+    margin-top: 1px;
+    width: 98%;
+}
+#portfolio section.works { 
+    padding: 50px 0 0px;
+}
+#portfolio section.works ul { 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#portfolio section.works ul li { 
+    width: 31%;
+    position: relative;
+    margin-bottom: 50px;
+    transition: all .5s ease-in;
+}
+#portfolio section.works ul li div.img_container img { 
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#portfolio section.works ul li:hover div.bg{
+    background: rgb(59, 59, 59);
+    padding: 12px 10px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1;
+    transition: all .5s ease;
+}
+#portfolio section.works ul li:hover div.bg h5 { 
+    color: #2a60f6;
+    font-size: 22px;
+    margin-bottom: 12px;
+    font-family: 'Montserrat Light';
+    font-weight: 600;
+    display: block;
+}
+#portfolio section.works ul li div.bg h5{
+    display: none;
+}
+#portfolio section.works ul li div.bg span.field {
+    display: none;
+}
+#portfolio section.works ul li:hover div.bg span.field { 
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Montserrat Light';
+}
+#portfolio section.bottom { 
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+#portfolio section.bottom a.button { 
+    color: #fff;
+    background: #2a60f6;
+    padding: 20px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: 'Montserrat SemiBold';
+}
+#review { 
+    padding: 100px 0;
+    background: #fff;
+}
+#review h3 { 
+    font-size: 45px;
+    font-family: 'Montserrat Light';
+    text-align: center;
+}
+#review section.testimonials { 
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#review section.testimonials div.image { 
+    width: 40%;
+}
+#review section.testimonials div.image div.img_container { 
+    width: 90%;
+}
+#review section.testimonials div.image div.img_container img { 
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    object-position: 0% 0%;
+    border-radius: 5px;
+}
+#review section.testimonials div.info { 
+    padding: 20px 0;
+    width: 30%;
+}
+#review section.testimonials div.info p { 
+    font-size: 18px;
+    font-family: 'Montserrat Light';
+    margin-bottom: 20px;
+}
+#review section.testimonials div.info div.profile { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+#review section.testimonials div.info div.profile span.image { 
+    width: 30%;
+    display: inline-block;
+}
+#review section.testimonials div.info div.profile span.image img { 
+    width: 70px;
+    border-radius: 50%;
+    height: 70px;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+#review section.testimonials div.info div.profile div.details { 
+    width: 65%;
+}
+#review section.testimonials div.info div.profile div.details h6 { 
+    font-family: 'Montserrat SemiBold';
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#review section.testimonials div.info div.profile div.details span.position { 
+    font-family: 'Montserrat Light';
+    font-size: 15px;
+    color: #9b9b9b;
+    display: inline-block;
+}
+#interaction { 
+    padding: 60px 0;
+    background: #141827;
+}
+#interaction section.logos ul { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#interaction section.logos ul li { 
+    width: 25%;
+    padding: 70px 0;
+    text-align: center;
+    border-bottom: 1px solid #2a2e41;
+    border-right: 1px solid #2a2e41;
+    transition: all .5s ease-out;
+}
+#interaction section.logos ul li:nth-child(5){
+    border-bottom: none;
+}
+#interaction section.logos ul li:nth-child(6){
+    border-bottom: none;
+}
+#interaction section.logos ul li:nth-child(7){
+    border-bottom: none;
+}
+#interaction section.logos ul li:nth-child(8){
+    border-bottom: none;
+}
+#interaction section.logos ul li:nth-child(4){
+    border-right: none;
+}
+#interaction section.logos ul li:nth-child(8){
+    border-right: none;
+}
+#interaction section.logos ul li span.image img { 
+    width: 100px;
+    height: 100px;
+    filter: grayscale(1);
+}
+#interaction section.logos ul li:hover span.image img {
+    filter: grayscale(0);
+    transition: all .9s ease;
+    transform: scale(1.3);
+}
+#blog { 
+    padding-top: 100px;
+    background: #fff;
+}
+#blog section.top { 
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+}
+#blog section.top span.blog { 
+    color: #2a60f6;
+    background: #e9efff;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-family: 'Montserrat SemiBold';
+    margin-bottom: 20px;
+}
+#blog section.top h2 { 
+    font-family: 'Montserrat Light';
+    font-size: 45px;
+}
+#blog section.middle { 
+    padding: 50px 0;
+}
+#blog section.middle ul { 
+    display: flex;
+    justify-content: space-between;
+}
+#blog section.middle ul li { 
+    width: 31%;
+}
+#blog section.middle ul li div.img_container { 
+    width: 100%;
+}
+#blog section.middle ul li div.img_container img { 
+    width: 100%;
+    display: block;
+}
+#blog section.middle ul li div.content{
+    background: #fff;
+    padding: 20px 15px;
+    box-shadow: 1px 2px 8px 1px #e9e6e6;
+}
+#blog section.middle ul li div.content span.label { 
+    color: #2a60f6;
+    font-size: 17px;
+    display: inline-block;
+    font-family: 'Montserrat SemiBold';
+}
+#blog section.middle ul li div.content p { 
+    font-size: 20px;
+    font-family: 'Montserrat SemiBold';
+    color: #807d7d;
+}
+#blog section.middle ul li div.content small { 
+    font-family: 'Montserrat Light';
+    font-size: 16px;
+    color: #9b9b9b;
+    display: inline-block;
+}
+#blog section.bottom { 
+    width: 15%;
+    margin: 0 auto;
+    text-align: center;
+}
+#blog section.bottom a.button { 
+    color: #fff;
+    background: #2a60f6;
+    padding: 20px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: 'Montserrat SemiBold';
+}
+#contact { 
+    padding: 100px 0;
+    background: #fff;
+}
+#contact section.top { 
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+#contact section.top span.label { 
+    color: #2a60f6;
+    background: #e9efff;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-family: 'Montserrat SemiBold';
+    margin-bottom: 20px;
+}
+#contact section.top h2 { 
+    font-family: 'Montserrat Light';
+    font-size: 45px;
+}
+#contact section.locate { 
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+#contact section.locate div.left { 
+    width: 60%;
+}
+#contact section.locate div.left div.img_container { 
+    width: 100%;
+}
+#contact section.locate div.left div.img_container img { 
+    display: block;
+    width: 100%;
+}
+#contact section.locate div.right { 
+    width: 35%;
+    padding: 60px 0;
+}
+#contact section.locate div.right form { 
+    width: 90%;
+}
+#contact section.locate div.right form input { 
+    padding: 15px 12px;
+    border-radius: 5px;
+    border: 2px solid #c9c4c4;
+    margin-bottom: 18px;
+    width: 100%;
+}
+#contact section.locate div.right form div.flex {
+    display: flex;
+    justify-content: space-between;
+}
+#contact section.locate div.right form div.flex input { 
+    width: 48%;
+}
+#contact section.locate div.right form textarea { 
+    width: 100%;
+    padding: 15px 12px;
+    border-radius: 5px;
+    border: 2px solid #c9c4c4;
+    margin-bottom: 18px;
+    color: #a3a6ae;
+}
+#contact section.locate div.right form input[type="submit"]{
+    color: #fff;
+    background: #2a60f6;
+    padding: 20px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: 'Montserrat SemiBold';
+    width: 35%;
+    text-align: center;
+    margin: 0 auto;
+}
+footer { 
+    padding: 60px 0;
+    background: #141827;
+}
+footer h2 { 
+    font-family: 'Montserrat SemiBold';
+    font-size: 45px;
+    text-align: center;
+    color: #9B9B9B;
+}
+footer section.follow { 
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer section.follow div.item { 
+    width: 25%;
+}
+footer section.follow div.item.large { 
+    width: 50%;
+}
+footer section.follow div.item span.label { 
+    color: #9B9B9B;
+    display: inline-block;
+    font-size: 17px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat SemiBold';
+}
+footer section.follow div.item span.line { 
+    color: #9b9b9b;
+    margin-bottom: 15px;
+    display: block;
+}
+footer section.follow div.item ul li{
+    margin-bottom: 12px;
+}
+footer section.follow div.item ul li a{
+    color: #fff;
+    font-size: 22px;
+    display: inline-block;
+    font-family: 'Montserrat Light';
+}
+footer section.follow div.item p { 
+    font-size: 22px;
+    color: #fff;
+    width: 65%;
+    font-family: 'Montserrat Light';
+}
+footer section.subscribe h4 { 
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #7c7a7a;
+    font-family: 'Montserrat Light';
+    text-align: center;
+}
+footer section.subscribe form { 
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+footer section.subscribe form input[type="email"] { 
+    width: 75%;
+    background: #2c3242;
+    padding: 20px 25px;
+    color: #c9c4c4;
+    border-radius:5px 0px 0px 5px; 
+    font-family: 'Montserrat SemiBold';
+}
+footer section.subscribe form input[type="submit"] { 
+    width: 25%;
+    background: #2a60f6;
+    padding: 20px 25px;
+    color: #fff;
+    font-family: 'Montserrat SemiBold';
+    border-radius:0px 5px 5px 0px; 
+}
+footer section.subscribe p { 
+    font-family: 'Montserrat Light';
+    font-size: 18px;
+    color: #7c7a7a;
+    text-align: center;
+    margin-top: 40px;
+}
+footer section.subscribe p img { 
+    width: 20px;
+    filter: invert(1);
+    height: 20px;
+}
+footer section.subscribe p a { 
+    color: #2a60f6;
+}
